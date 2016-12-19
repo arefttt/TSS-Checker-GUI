@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81A34BDA1E081B6D00C9E783 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A34BD91E081B6D00C9E783 /* AppDelegate.m */; };
+		81A34BDD1E081B6D00C9E783 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A34BDC1E081B6D00C9E783 /* main.m */; };
+		81A34BE01E081B6D00C9E783 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A34BDF1E081B6D00C9E783 /* ViewController.m */; };
+		81A34BE21E081B6D00C9E783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A34BE11E081B6D00C9E783 /* Assets.xcassets */; };
+		81A34BE51E081B6D00C9E783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A34BE31E081B6D00C9E783 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81A34BD51E081B6D00C9E783 /* TSS-Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TSS-Checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A34BD81E081B6D00C9E783 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81A34BD91E081B6D00C9E783 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81A34BDC1E081B6D00C9E783 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81A34BDE1E081B6D00C9E783 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		81A34BDF1E081B6D00C9E783 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		81A34BE11E081B6D00C9E783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81A34BE41E081B6D00C9E783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81A34BE61E081B6D00C9E783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81A34BD21E081B6D00C9E783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81A34BCC1E081B6D00C9E783 = {
+			isa = PBXGroup;
+			children = (
+				81A34BD71E081B6D00C9E783 /* TSS-Checker */,
+				81A34BD61E081B6D00C9E783 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81A34BD61E081B6D00C9E783 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81A34BD51E081B6D00C9E783 /* TSS-Checker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81A34BD71E081B6D00C9E783 /* TSS-Checker */ = {
+			isa = PBXGroup;
+			children = (
+				81A34BD81E081B6D00C9E783 /* AppDelegate.h */,
+				81A34BD91E081B6D00C9E783 /* AppDelegate.m */,
+				81A34BDE1E081B6D00C9E783 /* ViewController.h */,
+				81A34BDF1E081B6D00C9E783 /* ViewController.m */,
+				81A34BE11E081B6D00C9E783 /* Assets.xcassets */,
+				81A34BE31E081B6D00C9E783 /* Main.storyboard */,
+				81A34BE61E081B6D00C9E783 /* Info.plist */,
+				81A34BDB1E081B6D00C9E783 /* Supporting Files */,
+			);
+			path = "TSS-Checker";
+			sourceTree = "<group>";
+		};
+		81A34BDB1E081B6D00C9E783 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81A34BDC1E081B6D00C9E783 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81A34BD41E081B6D00C9E783 /* TSS-Checker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81A34BE91E081B6D00C9E783 /* Build configuration list for PBXNativeTarget "TSS-Checker" */;
+			buildPhases = (
+				81A34BD11E081B6D00C9E783 /* Sources */,
+				81A34BD21E081B6D00C9E783 /* Frameworks */,
+				81A34BD31E081B6D00C9E783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TSS-Checker";
+			productName = "TSS-Checker";
+			productReference = 81A34BD51E081B6D00C9E783 /* TSS-Checker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81A34BCD1E081B6D00C9E783 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Mohammad Aref Tamanadar";
+				TargetAttributes = {
+					81A34BD41E081B6D00C9E783 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FTXAV6M3M4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 81A34BD01E081B6D00C9E783 /* Build configuration list for PBXProject "TSS-Checker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81A34BCC1E081B6D00C9E783;
+			productRefGroup = 81A34BD61E081B6D00C9E783 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81A34BD41E081B6D00C9E783 /* TSS-Checker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81A34BD31E081B6D00C9E783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A34BE21E081B6D00C9E783 /* Assets.xcassets in Resources */,
+				81A34BE51E081B6D00C9E783 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81A34BD11E081B6D00C9E783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A34BE01E081B6D00C9E783 /* ViewController.m in Sources */,
+				81A34BDD1E081B6D00C9E783 /* main.m in Sources */,
+				81A34BDA1E081B6D00C9E783 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81A34BE31E081B6D00C9E783 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81A34BE41E081B6D00C9E783 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81A34BE71E081B6D00C9E783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		81A34BE81E081B6D00C9E783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		81A34BEA1E081B6D00C9E783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FTXAV6M3M4;
+				INFOPLIST_FILE = "TSS-Checker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arefttt.TSS-Checker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81A34BEB1E081B6D00C9E783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FTXAV6M3M4;
+				INFOPLIST_FILE = "TSS-Checker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arefttt.TSS-Checker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81A34BD01E081B6D00C9E783 /* Build configuration list for PBXProject "TSS-Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81A34BE71E081B6D00C9E783 /* Debug */,
+				81A34BE81E081B6D00C9E783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81A34BE91E081B6D00C9E783 /* Build configuration list for PBXNativeTarget "TSS-Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81A34BEA1E081B6D00C9E783 /* Debug */,
+				81A34BEB1E081B6D00C9E783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81A34BCD1E081B6D00C9E783 /* Project object */;
+}
