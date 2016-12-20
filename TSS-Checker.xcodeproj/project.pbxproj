@@ -12,6 +12,9 @@
 		81A34BE01E081B6D00C9E783 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A34BDF1E081B6D00C9E783 /* ViewController.m */; };
 		81A34BE21E081B6D00C9E783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A34BE11E081B6D00C9E783 /* Assets.xcassets */; };
 		81A34BE51E081B6D00C9E783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A34BE31E081B6D00C9E783 /* Main.storyboard */; };
+		81A34BED1E081BB900C9E783 /* tsschecker_macos in Resources */ = {isa = PBXBuildFile; fileRef = 81A34BEC1E081BB900C9E783 /* tsschecker_macos */; };
+		81A34BF91E08F84700C9E783 /* cacert.pem in Resources */ = {isa = PBXBuildFile; fileRef = 81A34BF71E08F84700C9E783 /* cacert.pem */; };
+		81A34BFA1E08F84700C9E783 /* curl-ca-bundle.crt in Resources */ = {isa = PBXBuildFile; fileRef = 81A34BF81E08F84700C9E783 /* curl-ca-bundle.crt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		81A34BE11E081B6D00C9E783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81A34BE41E081B6D00C9E783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81A34BE61E081B6D00C9E783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81A34BEC1E081BB900C9E783 /* tsschecker_macos */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tsschecker_macos; sourceTree = "<group>"; };
+		81A34BF71E08F84700C9E783 /* cacert.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cacert.pem; sourceTree = "<group>"; };
+		81A34BF81E08F84700C9E783 /* curl-ca-bundle.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "curl-ca-bundle.crt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +62,15 @@
 		81A34BD71E081B6D00C9E783 /* TSS-Checker */ = {
 			isa = PBXGroup;
 			children = (
+				81A34BF71E08F84700C9E783 /* cacert.pem */,
+				81A34BF81E08F84700C9E783 /* curl-ca-bundle.crt */,
 				81A34BD81E081B6D00C9E783 /* AppDelegate.h */,
 				81A34BD91E081B6D00C9E783 /* AppDelegate.m */,
 				81A34BDE1E081B6D00C9E783 /* ViewController.h */,
 				81A34BDF1E081B6D00C9E783 /* ViewController.m */,
 				81A34BE11E081B6D00C9E783 /* Assets.xcassets */,
 				81A34BE31E081B6D00C9E783 /* Main.storyboard */,
+				81A34BEC1E081BB900C9E783 /* tsschecker_macos */,
 				81A34BE61E081B6D00C9E783 /* Info.plist */,
 				81A34BDB1E081B6D00C9E783 /* Supporting Files */,
 			);
@@ -135,7 +144,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A34BF91E08F84700C9E783 /* cacert.pem in Resources */,
 				81A34BE21E081B6D00C9E783 /* Assets.xcassets in Resources */,
+				81A34BFA1E08F84700C9E783 /* curl-ca-bundle.crt in Resources */,
+				81A34BED1E081BB900C9E783 /* tsschecker_macos in Resources */,
 				81A34BE51E081B6D00C9E783 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +274,10 @@
 				DEVELOPMENT_TEAM = FTXAV6M3M4;
 				INFOPLIST_FILE = "TSS-Checker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TSS-Checker",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arefttt.TSS-Checker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -275,6 +291,10 @@
 				DEVELOPMENT_TEAM = FTXAV6M3M4;
 				INFOPLIST_FILE = "TSS-Checker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TSS-Checker",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arefttt.TSS-Checker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

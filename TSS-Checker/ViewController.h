@@ -7,8 +7,18 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "DragView.h"
 
-@interface ViewController : NSViewController
+@interface ViewController : NSViewController 
+@property (weak) IBOutlet NSTextField *ecidTextField;
+@property (weak) IBOutlet NSTextField *DeviceIdent;
+@property (weak) IBOutlet NSTextView *logView;
+@property (weak) IBOutlet NSButton *openDeviceList;
+
+@property (weak) IBOutlet NSButton *getLatestVersion;
+@property (weak) IBOutlet NSTextField *versionLabel;
+@property (weak) IBOutlet NSTextField *versionField;
+@property (weak) IBOutlet NSTextFieldCell *versionLabel2;
 
 
 @end
