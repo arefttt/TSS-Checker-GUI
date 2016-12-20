@@ -278,6 +278,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/TSS-Checker",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arefttt.TSS-Checker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -295,6 +296,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/TSS-Checker",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arefttt.TSS-Checker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
